@@ -11,4 +11,7 @@ function logValues() {
   console.log(enteredFirstName)
   console.log(enteredLastName)
   console.log(enteredEmail)
+  firstName.value = " "
+  lastName.value = " "
+  email.value = " "
 }
