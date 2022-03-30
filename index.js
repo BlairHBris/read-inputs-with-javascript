@@ -5,13 +5,13 @@ const email = document.querySelector("#email")
 
 
 function logValues() {
-  let enteredFirstName = firstName.value
-  let enteredLastName = lastName.value
-  let enteredEmail = email.value
+  const enteredFirstName = firstName.value
+  const enteredLastName = lastName.value
+  const enteredEmail = email.value
   console.log(enteredFirstName)
   console.log(enteredLastName)
   console.log(enteredEmail)
-  firstName.value = " "
-  lastName.value = " "
-  email.value = " "
+  firstName.value = ""
+  lastName.value = ""
+  email.value = ""
 }
